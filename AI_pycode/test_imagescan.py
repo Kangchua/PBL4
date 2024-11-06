@@ -9,7 +9,7 @@ from datetime import datetime
 import time
 
 # Load YOLO model for fire detection
-model = YOLO('bestest.pt')
+model = YOLO('mybest.pt')
 
 # Classes (assuming fire is the only class)
 classnames = ['smoke', 'fire']

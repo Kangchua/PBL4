@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/identification.css') }}">
+    <title>Nhận Diện</title>
+</head>
+<body>
+    <h2>Nhận Diện</h2>
+    <script src="{{ url_for('static', filename='js/identification.js') }}" defer></script>
+
+    <img src="{{ image_path }}" alt="Identified Image">
+    <p>Tọa độ: <span id="coordinates">X: , Y: </span></p>
+    <script src="{{ url_for('static', filename='js/identification.js') }}" defer></script>
+    <p>Image path: {{ image_path }}</p>
+
+</body>
+</html>
